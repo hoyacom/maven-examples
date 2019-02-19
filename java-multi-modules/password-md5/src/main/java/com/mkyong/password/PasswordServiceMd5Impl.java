@@ -7,7 +7,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 @Service
-public class PasswordServiceImpl implements PasswordService {
+public class PasswordServiceMd5Impl implements PasswordService {
 
     @Override
     public String hash(String input) {

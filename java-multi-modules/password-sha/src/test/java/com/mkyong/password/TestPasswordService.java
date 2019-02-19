@@ -13,7 +13,7 @@ public class TestPasswordService {
 
     @BeforeEach
     void init() {
-        passwordService = new PasswordServiceImpl();
+        passwordService = new PasswordServiceSha256Impl();
     }
 
     @DisplayName("sha256 -> hex")

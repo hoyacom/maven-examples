@@ -13,7 +13,7 @@ public class TestPasswordService {
 
     @BeforeEach
     void init() {
-        passwordService = new PasswordServiceImpl();
+        passwordService = new PasswordServiceMd5Impl();
     }
 
     @DisplayName("md5 -> hex")
